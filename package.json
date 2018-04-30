@@ -49,5 +49,11 @@
     "priorityqueuejs": "^1.0.0",
     "q": "^1.4.1"
   },
-  "files": ["lib", "bin"]
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "dependencies": {
+    "https-proxy-agent": "^2.2.1"
+  }
 }

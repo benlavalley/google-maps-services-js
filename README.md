@@ -1,3 +1,15 @@
+## Updated with proxy support.
+When calling createClient, a proxy can be specified. Example:
+
+const googleMapsClient = googleMaps.createClient({
+	proxy: { // new proxy definition option
+		proxyUrl: http://login:password@proxyUrl:proxyPort, // full proxy URL with authentication (if needed)
+		secureProxy: true, // initiate TLS (defaults to false)
+	},
+	key: <your key>,
+});
+=======================================
+
 Node.js Client for Google Maps Services
 =======================================
 
